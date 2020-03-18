@@ -27,12 +27,12 @@
 
 const keycloak_conf = {
   "realm": "master",
-  "auth-server-url": "http://localhost:8180/auth",
+  "auth-server-url": "https://secure-sso.adiq.io/auth",
   "ssl-required": "external",
   "resource": "partner-frontend",
   "public-client": true,
   "confidential-port": 0,
-  "url": "http://localhost:8180/auth",
+  "url": "https://secure-sso.adiq.io/auth",
   "clientId": "partner-frontend"
 }
 
